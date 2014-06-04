@@ -3,7 +3,7 @@
 int setDuty(int duty, std::string device)
 {
   std::stringstream filename;
-  filename << SYSFS_PWM_DIR << "/" << device;
+  filename << SYSFS_PWM_DIR << "/" << device << "/duty";
   std::ofstream pwmFile(filename.str().c_str());
   if (pwmFile.is_open())
   {
