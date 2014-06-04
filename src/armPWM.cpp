@@ -20,10 +20,12 @@ int setDuty(int duty, std::string device)
 
 int getDuty(std::string device)
 {
+  return -1;
 }
 
 int getPeriode(std::string device)
 {
+  return -1;
 }
 
 int main(int argc,  char* argv[])

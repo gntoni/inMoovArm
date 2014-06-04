@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <unistd.h>
 
 const std::string SYSFS_PWM_DIR = "/sys/devices/ocp.3";
 
