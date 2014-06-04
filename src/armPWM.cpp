@@ -41,12 +41,12 @@ int main(int argc,  char* argv[])
     setDuty(duty1, pwm2);
     setDuty(duty1, pwm3);
     setDuty(duty1, pwm4);
-    sleep(3)
+    sleep(3);
     setDuty(duty2, pwm1);
     setDuty(duty2, pwm2);
     setDuty(duty2, pwm3);
     setDuty(duty2, pwm4);
-    sleep(3)
+    sleep(3);
   }
 }
 
